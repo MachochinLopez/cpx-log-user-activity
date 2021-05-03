@@ -1,0 +1,77 @@
+/**
+ * Estilos para las vistas de admin de resultados.
+ */
+
+.wrap .tablenav .search-box {
+	position: initial;
+	height: fit-content;
+}
+
+.wrap .tablenav .search-box input {
+	margin: 5px 0;
+}
+
+.wrap .tablenav .search-box .end_date_label {
+	margin: 0 9px;
+}
+
+.wrap .tablenav .search-box .start_date_input,
+.wrap .tablenav .search-box .end_date_input {
+	margin-right: 9px;
+}
+
+.wrap .tablenav .search-box .end_date_label {
+	margin-left: 0;
+}
+
+/* Hace más grueso el tipo de letra de los headers y footers de la tabla */
+.widefat tfoot td,
+.widefat th,
+.widefat thead td {
+	font-weight: 700;
+}
+
+/* Agrega el border a las filas de la tabla */
+.widefat tbody td {
+	border-top: 1px solid #dfe0e2;
+	border-bottom: 1px solid #dfe0e2;
+}
+
+.widefat thead tr .column-activity_description {
+	width: 75%;
+}
+
+.wrap h1 strong {
+	font-weight: 800;
+}
+
+/* Filtro de fechas */
+.search-box {
+    margin-bottom: -40px;
+}
+
+.date-filters {
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+	flex-direction: row;
+}
+
+.date-filters__field {
+	margin-right: 5px;
+	display: flex;
+	flex-direction: column;
+}
+
+.date-filters__label {
+	font-weight: 700;
+}
+
+.date-filters__input {
+	background-color: white !important;
+	cursor: pointer;
+}
+
+.date-filters__clear {
+	margin-right: 5px !important;
+}
